@@ -1,0 +1,62 @@
+{D:/digital verification/projects/FIFO proj/cvg_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/cvg_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Cvg_Pkg
+-- Importing package Trans_Pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/digital verification/projects/FIFO proj/scoreboard_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/scoreboard_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Scr_Brd_Pkg
+-- Importing package Trans_Pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/digital verification/projects/FIFO proj/fifo_if.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/fifo_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface fifo_if
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/digital verification/projects/FIFO proj/monitor.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/digital verification/projects/FIFO proj/monitor.sv(1): (vlog-13233) Design unit "monitor_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package monitor_sv_unit
+-- Importing package Cvg_Pkg
+-- Importing package Trans_Pkg
+-- Importing package Scr_Brd_Pkg
+-- Importing package shared_pkg
+-- Compiling module monitor
+
+Top level modules:
+	monitor
+
+} {} {}} {D:/digital verification/projects/FIFO proj/shared_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/shared_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/digital verification/projects/FIFO proj/testbench.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/testbench.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/digital verification/projects/FIFO proj/testbench.sv(1): (vlog-13233) Design unit "testbench_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package testbench_sv_unit
+-- Importing package shared_pkg
+-- Importing package Trans_Pkg
+-- Compiling module fifo_tb
+
+Top level modules:
+	fifo_tb
+
+} {} {}} {D:/digital verification/projects/FIFO proj/FIFO.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/digital verification/projects/FIFO proj/FIFO.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO
+** Error: (vlog-13069) D:/digital verification/projects/FIFO proj/FIFO.sv(129): near ":": syntax error, unexpected ':'.
+** Error: D:/digital verification/projects/FIFO proj/FIFO.sv(129): (vlog-13205) Syntax error found in the scope following 'wr_ptr_inc_assertion'. Is there a missing '::'?
+
+} {4.0 6.0} {}}

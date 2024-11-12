@@ -1,0 +1,9 @@
+fifo_if.sv
+shared_pkg.sv
+trans_pkg.sv
+cvg_pkg.sv
+scoreboard_pkg.sv
+monitor.sv
+FIFO.sv
+testbench.sv
+top.sv
